@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1412D41C292C0F80002B2902 /* ArrochaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1412D41B292C0F80002B2902 /* ArrochaApp.swift */; };
+		1412D41E292C0F80002B2902 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1412D41D292C0F80002B2902 /* ContentView.swift */; };
+		1412D420292C0F82002B2902 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1412D41F292C0F82002B2902 /* Assets.xcassets */; };
+		1412D423292C0F82002B2902 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1412D422292C0F82002B2902 /* Preview Assets.xcassets */; };
+		1412D42E292C0F82002B2902 /* ArrochaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1412D42D292C0F82002B2902 /* ArrochaTests.swift */; };
+		1412D439292C0F82002B2902 /* ArrochaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1412D438292C0F82002B2902 /* ArrochaUITests.swift */; };
+		1412D44A292C1029002B2902 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1412D449292C1029002B2902 /* MainView.swift */; };
+		1412D455292C13A0002B2902 /* ArrochaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1412D454292C13A0002B2902 /* ArrochaViewModel.swift */; };
+		1412D45A292C1652002B2902 /* Status.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1412D459292C1652002B2902 /* Status.swift */; };
+		1412D467292C1857002B2902 /* GanhouView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1412D466292C1857002B2902 /* GanhouView.swift */; };
+		1412D46C292C19EA002B2902 /* PerdeuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1412D46B292C19EA002B2902 /* PerdeuView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1412D42A292C0F82002B2902 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1412D410292C0F7F002B2902 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1412D417292C0F7F002B2902;
+			remoteInfo = Arrocha;
+		};
+		1412D435292C0F82002B2902 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1412D410292C0F7F002B2902 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1412D417292C0F7F002B2902;
+			remoteInfo = Arrocha;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1412D418292C0F80002B2902 /* Arrocha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Arrocha.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1412D41B292C0F80002B2902 /* ArrochaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrochaApp.swift; sourceTree = "<group>"; };
+		1412D41D292C0F80002B2902 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1412D41F292C0F82002B2902 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1412D422292C0F82002B2902 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1412D424292C0F82002B2902 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1412D429292C0F82002B2902 /* ArrochaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArrochaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1412D42D292C0F82002B2902 /* ArrochaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrochaTests.swift; sourceTree = "<group>"; };
+		1412D42F292C0F82002B2902 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1412D434292C0F82002B2902 /* ArrochaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArrochaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1412D438292C0F82002B2902 /* ArrochaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrochaUITests.swift; sourceTree = "<group>"; };
+		1412D43A292C0F82002B2902 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1412D449292C1029002B2902 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		1412D454292C13A0002B2902 /* ArrochaViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrochaViewModel.swift; sourceTree = "<group>"; };
+		1412D459292C1652002B2902 /* Status.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Status.swift; sourceTree = "<group>"; };
+		1412D466292C1857002B2902 /* GanhouView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GanhouView.swift; sourceTree = "<group>"; };
+		1412D46B292C19EA002B2902 /* PerdeuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerdeuView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1412D415292C0F7F002B2902 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1412D426292C0F82002B2902 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1412D431292C0F82002B2902 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1412D40F292C0F7F002B2902 = {
+			isa = PBXGroup;
+			children = (
+				1412D41A292C0F80002B2902 /* Arrocha */,
+				1412D42C292C0F82002B2902 /* ArrochaTests */,
+				1412D437292C0F82002B2902 /* ArrochaUITests */,
+				1412D419292C0F80002B2902 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1412D419292C0F80002B2902 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1412D418292C0F80002B2902 /* Arrocha.app */,
+				1412D429292C0F82002B2902 /* ArrochaTests.xctest */,
+				1412D434292C0F82002B2902 /* ArrochaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1412D41A292C0F80002B2902 /* Arrocha */ = {
+			isa = PBXGroup;
+			children = (
+				1412D41B292C0F80002B2902 /* ArrochaApp.swift */,
+				1412D41D292C0F80002B2902 /* ContentView.swift */,
+				1412D466292C1857002B2902 /* GanhouView.swift */,
+				1412D46B292C19EA002B2902 /* PerdeuView.swift */,
+				1412D459292C1652002B2902 /* Status.swift */,
+				1412D449292C1029002B2902 /* MainView.swift */,
+				1412D454292C13A0002B2902 /* ArrochaViewModel.swift */,
+				1412D41F292C0F82002B2902 /* Assets.xcassets */,
+				1412D424292C0F82002B2902 /* Info.plist */,
+				1412D421292C0F82002B2902 /* Preview Content */,
+			);
+			path = Arrocha;
+			sourceTree = "<group>";
+		};
+		1412D421292C0F82002B2902 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1412D422292C0F82002B2902 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1412D42C292C0F82002B2902 /* ArrochaTests */ = {
+			isa = PBXGroup;
+			children = (
+				1412D42D292C0F82002B2902 /* ArrochaTests.swift */,
+				1412D42F292C0F82002B2902 /* Info.plist */,
+			);
+			path = ArrochaTests;
+			sourceTree = "<group>";
+		};
+		1412D437292C0F82002B2902 /* ArrochaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1412D438292C0F82002B2902 /* ArrochaUITests.swift */,
+				1412D43A292C0F82002B2902 /* Info.plist */,
+			);
+			path = ArrochaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1412D417292C0F7F002B2902 /* Arrocha */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1412D43D292C0F82002B2902 /* Build configuration list for PBXNativeTarget "Arrocha" */;
+			buildPhases = (
+				1412D414292C0F7F002B2902 /* Sources */,
+				1412D415292C0F7F002B2902 /* Frameworks */,
+				1412D416292C0F7F002B2902 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Arrocha;
+			productName = Arrocha;
+			productReference = 1412D418292C0F80002B2902 /* Arrocha.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1412D428292C0F82002B2902 /* ArrochaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1412D440292C0F82002B2902 /* Build configuration list for PBXNativeTarget "ArrochaTests" */;
+			buildPhases = (
+				1412D425292C0F82002B2902 /* Sources */,
+				1412D426292C0F82002B2902 /* Frameworks */,
+				1412D427292C0F82002B2902 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1412D42B292C0F82002B2902 /* PBXTargetDependency */,
+			);
+			name = ArrochaTests;
+			productName = ArrochaTests;
+			productReference = 1412D429292C0F82002B2902 /* ArrochaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1412D433292C0F82002B2902 /* ArrochaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1412D443292C0F82002B2902 /* Build configuration list for PBXNativeTarget "ArrochaUITests" */;
+			buildPhases = (
+				1412D430292C0F82002B2902 /* Sources */,
+				1412D431292C0F82002B2902 /* Frameworks */,
+				1412D432292C0F82002B2902 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1412D436292C0F82002B2902 /* PBXTargetDependency */,
+			);
+			name = ArrochaUITests;
+			productName = ArrochaUITests;
+			productReference = 1412D434292C0F82002B2902 /* ArrochaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1412D410292C0F7F002B2902 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					1412D417292C0F7F002B2902 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					1412D428292C0F82002B2902 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 1412D417292C0F7F002B2902;
+					};
+					1412D433292C0F82002B2902 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 1412D417292C0F7F002B2902;
+					};
+				};
+			};
+			buildConfigurationList = 1412D413292C0F7F002B2902 /* Build configuration list for PBXProject "Arrocha" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1412D40F292C0F7F002B2902;
+			productRefGroup = 1412D419292C0F80002B2902 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1412D417292C0F7F002B2902 /* Arrocha */,
+				1412D428292C0F82002B2902 /* ArrochaTests */,
+				1412D433292C0F82002B2902 /* ArrochaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1412D416292C0F7F002B2902 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1412D423292C0F82002B2902 /* Preview Assets.xcassets in Resources */,
+				1412D420292C0F82002B2902 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1412D427292C0F82002B2902 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1412D432292C0F82002B2902 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1412D414292C0F7F002B2902 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1412D41E292C0F80002B2902 /* ContentView.swift in Sources */,
+				1412D45A292C1652002B2902 /* Status.swift in Sources */,
+				1412D46C292C19EA002B2902 /* PerdeuView.swift in Sources */,
+				1412D455292C13A0002B2902 /* ArrochaViewModel.swift in Sources */,
+				1412D44A292C1029002B2902 /* MainView.swift in Sources */,
+				1412D467292C1857002B2902 /* GanhouView.swift in Sources */,
+				1412D41C292C0F80002B2902 /* ArrochaApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1412D425292C0F82002B2902 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1412D42E292C0F82002B2902 /* ArrochaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1412D430292C0F82002B2902 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1412D439292C0F82002B2902 /* ArrochaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1412D42B292C0F82002B2902 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1412D417292C0F7F002B2902 /* Arrocha */;
+			targetProxy = 1412D42A292C0F82002B2902 /* PBXContainerItemProxy */;
+		};
+		1412D436292C0F82002B2902 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1412D417292C0F7F002B2902 /* Arrocha */;
+			targetProxy = 1412D435292C0F82002B2902 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1412D43B292C0F82002B2902 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1412D43C292C0F82002B2902 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1412D43E292C0F82002B2902 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Arrocha/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Arrocha/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pdm.Arrocha;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1412D43F292C0F82002B2902 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Arrocha/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Arrocha/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pdm.Arrocha;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1412D441292C0F82002B2902 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ArrochaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pdm.ArrochaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Arrocha.app/Arrocha";
+			};
+			name = Debug;
+		};
+		1412D442292C0F82002B2902 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ArrochaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pdm.ArrochaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Arrocha.app/Arrocha";
+			};
+			name = Release;
+		};
+		1412D444292C0F82002B2902 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ArrochaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pdm.ArrochaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Arrocha;
+			};
+			name = Debug;
+		};
+		1412D445292C0F82002B2902 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ArrochaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pdm.ArrochaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Arrocha;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1412D413292C0F7F002B2902 /* Build configuration list for PBXProject "Arrocha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1412D43B292C0F82002B2902 /* Debug */,
+				1412D43C292C0F82002B2902 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1412D43D292C0F82002B2902 /* Build configuration list for PBXNativeTarget "Arrocha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1412D43E292C0F82002B2902 /* Debug */,
+				1412D43F292C0F82002B2902 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1412D440292C0F82002B2902 /* Build configuration list for PBXNativeTarget "ArrochaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1412D441292C0F82002B2902 /* Debug */,
+				1412D442292C0F82002B2902 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1412D443292C0F82002B2902 /* Build configuration list for PBXNativeTarget "ArrochaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1412D444292C0F82002B2902 /* Debug */,
+				1412D445292C0F82002B2902 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1412D410292C0F7F002B2902 /* Project object */;
+}
